@@ -1,28 +1,53 @@
 .App {
   text-align: center;
+  margin-top: 3em;
+  line-height: 1.5;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+h1 {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 1.7em;
+  color: #4C66CA;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
+h2 {
+  font-size: 1.4em;
+}
+
+p {
+  font-size: 0.9em;
+  color: grey;
+}
+
+select {
+  height: 4em;
+  width: 250px;
+  background-color: rgba(255,255,255,0.7);
+  display: block;
+  margin: 0 auto;
+}
+
+select:focus {
+  outline: none;
+}
+
+.weather-display {
+  margin-top: 3em;
+  line-height: 0.5;
+  letter-spacing: 2px;
+  background-color: #4C66CA;
+  display: inline-block;
+  width: 250px;
+  padding: 2em 0;
   color: white;
 }
 
-.App-title {
-  font-size: 1.5em;
+.temp {
+  font-size: 2.5em;
+  font-weight: normal;
 }
 
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.weather {
+  font-size: 1.3em;
 }
