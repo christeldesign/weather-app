@@ -33,6 +33,8 @@ class WeatherApp extends Component {
 
   render () {
 
+    document.title = 'Weather App | Christel Chan';
+
     return (
       <div>
         <h1>Weather App</h1>

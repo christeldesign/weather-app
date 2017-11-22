@@ -22,7 +22,7 @@ p {
 
 select {
   height: 4em;
-  width: 250px;
+  width: 200px;
   background-color: rgba(255,255,255,0.7);
   display: block;
   margin: 0 auto;
@@ -37,6 +37,7 @@ select:focus {
   line-height: 0.5;
   letter-spacing: 2px;
   background-color: #4C66CA;
+  border-radius: 7px;
   display: inline-block;
   width: 250px;
   padding: 2em 0;
