@@ -54,6 +54,10 @@ select:focus {
   padding-right: 15px;
 }
 
+.temp sup {
+  font-size: 0.5em;
+}
+
 .weather {
   font-size: 1.3em;
   grid-column-start: span 2;
@@ -62,4 +66,5 @@ select:focus {
 .weather-icon {
   max-width: 90px;
   height: auto;
+  margin-left: 0.5em;
 }

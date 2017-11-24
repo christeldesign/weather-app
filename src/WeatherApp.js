@@ -30,15 +30,16 @@ class WeatherApp extends Component {
           // if function for rendering icons
           const weather = response.data.query.results.channel.item.condition.text;
 
-          if (weather.includes('Sunny')) {
+          if (weather.includes('Sunny') || weather.includes('Clear')) {
             var icon = sunnyIcon
-          } else if (weather.includes('Showers')) {
+          } else if (weather.includes('Showers') || weather.includes('Rain')) {
             var icon = rainyIcon
           } else if (weather.includes('Cloudy')) {
             var icon = cloudyIcon
-          } else if (weather.includes('Breezy')) {
+          } else if (weather.includes('Breezy') || weather.includes('Wind')) {
             var icon = windyIcon
           } else {
+            // Catchall is cloudy
             var icon = cloudyIcon
           }
 
