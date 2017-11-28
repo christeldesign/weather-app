@@ -1,10 +1,7 @@
 import React, { Component } from 'react';
 
 class WeatherDisplay extends Component {
-
   render () {
-
-    var weather = this.props.weather;
     return (
       <div className = 'weather-display'>
         <h2>{this.props.city}</h2>
